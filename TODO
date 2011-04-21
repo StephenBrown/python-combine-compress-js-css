@@ -1,0 +1,5 @@
+- Add ability to save version numbers
+    - Possibly in external file
+    - Allow for dates for a checksum
+
+- Add other compressor engines

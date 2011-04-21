@@ -1,0 +1,9 @@
+*\.hg
+*\.hgignore
+
+*.pyc
+
+*.swp
+*.swo
+
+*.temp

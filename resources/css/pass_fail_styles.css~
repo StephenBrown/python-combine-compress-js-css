@@ -1,0 +1,47 @@
+body {
+	padding : 10px;
+	width : 960px;
+}
+p {
+	margin-bottom : 0.5em;
+	padding-left : 0.5em;
+}
+body div {
+	padding-left : 26px;
+}
+body div.parent div {
+	display : none;
+	cursor : default;
+}
+body div.parent {
+	cursor : pointer !important;
+	background : transparent url(../images/plus.gif) no-repeat top left;
+}
+body div.expanded {
+	cursor : pointer !important;
+	background : transparent url(../images/minus.gif) no-repeat top left;
+}
+.pass p, div .pass p {
+	background : #81F781;
+	border : 2px solid #58FA58;
+}
+.fail p, div .fail p {
+	background : #F78181;
+	border : 2px solid #FA5858;
+}
+.parent div div p {
+	background : none;
+	border : none;
+}
+.setstate p {
+	background : #81BEF7;
+	border : 2px solid #58ACFA;
+}
+
+table.diff {font-family:Courier; border:medium;}
+.diff_header {background-color:#e0e0e0}
+td.diff_header {text-align:right}
+.diff_next {background-color:#c0c0c0}
+.diff_add {background-color:#aaffaa}
+.diff_chg {background-color:#ffff77}
+.diff_sub {background-color:#ffaaaa}
